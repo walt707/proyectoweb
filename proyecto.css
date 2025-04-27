@@ -1,0 +1,168 @@
+body{
+
+    font-family: 'Mate SC', serif;
+    margin: 0;
+    padding:0;
+    background-color: rgb(145, 239, 161);
+}
+header{
+    font-family: 'Mate SC', serif;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1436;
+    height: 108;
+    border-radius: 10px;
+}
+header ul {
+    
+    margin-left: 20px; /* Espacio desde el borde izquierdo */
+    padding-left: 10px;
+   font-family: 'Mate SC', serif;
+    display: flex;
+    gap: 20px;
+ }
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    font-family: 'Mate SC', serif;
+     display: flex;
+    padding: 60px;
+    background-color: white;
+    image-orientation:inherit ;
+        display: flex;
+        align-items: center; /* Alinea verticalmente */
+        gap: 8%; /* Espacio entre la imagen y el texto */
+    
+        
+    
+    
+}
+.eslogan{
+     font-family: 'Mate SC', serif;
+     background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration-color: #45a049;
+    font-size: 20px;
+    
+}
+
+.eslogan img{
+    width:40%; height: 30%;
+    border-radius: 40px;
+}
+
+.caracteristicas{
+    font-family: 'Mate SC', serif;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: left; /* Alinea verticalmente */
+    gap: 30px; /
+
+}
+.caracteristicas image{
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 200px;
+    border-radius: 5%;
+
+
+}
+.subtitulo {
+    font-size: 15px; /* Tamaño de la fuente */
+    color: black; /* Color del texto */
+    font-style: italic; /* Estilo en cursiva */
+    text-align: left; /* Centrado del texto */
+    margin-top: 10px; /* Espacio superior */
+}
+.parrafo {
+    font-size: 12px; /* Tamaño de la fuente */
+    color: gray; /* Color del texto */
+    font-style: italic; /* Estilo en cursiva */
+    text-align: left; /* Centrado del texto */
+    margin-top: 10px; /* Espacio superior */
+}
+
+
+
+.hero img { 
+    width: 50%; height: 40%;
+    image-orientation: left;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.section {
+
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.joya1 {
+    image-orientation: left;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.product {
+    text-align: center;
+    width: 200px;
+}
+
+.suscription {
+     text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(39, 132, 39);
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    text-align: center
+}
+/* esto es un formulrio*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+form {
+    margin-top: 20px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+

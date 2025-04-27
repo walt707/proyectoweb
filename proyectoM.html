@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="whidth=device-width, initial-scale=1.0">
+     <title> Joyería Muzo </title>
+     <link rel="stylesheet" href="proyecto.css">
+     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"
+      rel="stylesheet">
+
+     
+    </head>
+    <body>
+    <header>
+        <hi>Joyería Muzo</hi>
+        
+        <ul>
+            <li><a href="#esmeraldas"></a> Esmeraldas  </li>
+            <li><a href="#Joyería"></a> Joyería  </li>
+            <li><a href="#contacto"></a> contacto </li>
+        </ul>
+    </header>
+    <header>
+        <h1>Joyería de Esmeraldas</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <img src="imagenes/logo MUZO.png" 
+             width="30%" height="20%"
+             alt= "logo Muzo">
+             <h2>Gemas y Joyas de alta calidad certificadas</h2>
+             
+             </div>
+   
+    </div>
+   
+    <div class="eslogan">
+        <img src="imagenes/Captura de pantalla 2025-03-31 143946.png"/>
+        <p>cumpliendo con los estándares de calidad, somos la tienda online más segura
+        de colombia 
+        </p>
+    
+        <!-- caracteristicas de las esmeraldas -->
+     <div class="caracteristicas " id="esmeraldas">
+                <h1>Características de las esmeraldas  </h1>
+                    <button class="boton h"> Historia</button>
+         <div class="parrafo">
+                <h2 class="subtitulo"> Pureza</h2>
+                <p> 
+                      La esmeralda es una piedra transparente,
+                    pero con frecuencia puede tener inclusiones que afectan su claridad.
+                     Estas inclusiones son comunes en las esmeraldas y se conocen como «jardines».
+                </p>
+                <h2 class="subtitulo"> Color</h2>
+                <p> 
+                    la esmeralda es conocida por su intenso color verde,
+                     que puede variar desde un tono claro hasta un verde oscuro y profundo.
+                      Este color es debido a la presencia de cromo y vanadio en la piedra.   
+                </p>
+                <h2 class="subtitulo"> Brillo</h2>
+                <p> 
+                    el brillo de  las esmeraldas 
+                    depende de dos factores la pureza y el corte de la gema 
+                </p>
+     </div>
+                <img src="imagenes/emeraldd.jpg" 
+                        width="35%" height="25%"
+                        alta="esmeraldas Natural">
+
+     </div>
+      
+
+   <div class="joya 1">
+    <img src="imagenes/e736e930c29b787efe72de025165e2c3-e1695722855311-1024x805.webp"
+    width="200px" height="100px"
+    alta="engastadas en oro">
+    <h3>Engastadas en Oro</h3>
+    <p>Engastadas en Oro de 18 quilates con Esmeraldas</p>
+</div>
+<div class="producto">
+ <img src="imagenes/Captura de pantalla 2025-04-01 204314.png"
+ width="300px" height="200px"
+ alta="engastadas en plata">
+ <h3>Engastadas en plata</h3>
+ <p>Engastadas en plata italiana 925</p>
+</div>
+   <div class="suscription">
+    
+   
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Suscripción</title>
+        <link rel="stylesheet" href="proyecto.css">
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        <h1>Suscríbete</h1>
+        <form id="formularioSuscripcion">
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required><br>
+            <button type="submit">Suscribirse</button>
+        </form>
+        <script src="suscripcion.js"></script>
+    </body>
+    </html>
+    
+
+   </div>
+ </div>
+
+
+ <script>
+    document.querySelector('form').addEventListener('submit', (event) => {
+    const email = document.querySelector('input[type="email"]').value;
+    if (!email.includes('@')) {
+        event.preventDefault();
+
+        alert('Por favor, ingresa un correo válido.');
+       
+
+    }
+});
+fetch('file:///C:/Users/walter/OneDrive/Escritorio/proyectoM/proyectoM.html?correo=walter_vera%40gmail.com')
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+ </script>
+   <footer>
+    <p>contacto:esmeraldasMuzo@gmail.com     WhatsApp: +57 3126924513</p>
+   </footer>
+   <script src="archivo.js"></script>
+    </body>
+</html>
